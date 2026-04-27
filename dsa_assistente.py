@@ -157,8 +157,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-# Obrigado DSA
-
-
-

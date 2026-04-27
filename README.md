@@ -33,7 +33,7 @@ conda create --name dsaec1 python=3.13
 ```bash
 conda activate dsaec1
 # ou, em sistemas Unix:
-source activate dsaec1
+source dsaec1/bin/activate
 ```
 
 ### 3. Instalar as dependências
