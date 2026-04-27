@@ -7,7 +7,16 @@
 
 ## 📋 Sobre o Projeto
 
-Assistente inteligente de programação Python, construído com Streamlit e integrado a modelos de linguagem. Ideal para tirar dúvidas de sintaxe, lógica e uso de bibliotecas.
+Assistente inteligente de programação Python, construído com Streamlit e integrado à API da Groq. Ideal para tirar dúvidas de sintaxe, lógica e uso de bibliotecas.
+
+**Stack principal:** Streamlit · Groq API · Pandas · NumPy
+
+---
+
+## ✅ Pré-requisitos
+
+- [Miniconda ou Anaconda](https://www.anaconda.com/download) instalado
+- Chave de API da [Groq](https://console.groq.com) (gratuita)
 
 ---
 
@@ -34,7 +43,17 @@ conda install pip
 pip install -r requirements.txt
 ```
 
-### 4. Executar a aplicação
+### 4. Configurar a chave de API
+
+Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
+
+```env
+GROQ_API_KEY=sua_chave_aqui
+```
+
+> Obtenha sua chave gratuita em [console.groq.com](https://console.groq.com)
+
+### 5. Executar a aplicação
 
 ```bash
 streamlit run dsa_assistente.py
